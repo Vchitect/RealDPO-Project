@@ -77,7 +77,7 @@
   <title>RealDPO: Real or Not Real, that is the Preference</title>
   
   <!-- Favicon and App Icons -->
-  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link rel="icon" type="image/x-icon" href="static/images/s33766133.jpg">
   <link rel="apple-touch-icon" href="static/images/favicon.ico">
   
   <!-- Critical CSS - Load synchronously -->
@@ -278,24 +278,36 @@
 
 
 
+<!-- Combined video + teaser section -->
+<section class="section hero is-small">
+  <div class="hero-body">
+    <div class="container is-max-desktop has-text-centered">
+        <h2 class="title is-3">Overview</h2>
 
+      <!-- Video -->
+      <div class="publication-video mb-5">
+        <iframe 
+          src="https://www.youtube.com/embed/jvz5snFN0XA"
+          frameborder="0"
+          allow="autoplay; encrypted-media"
+          allowfullscreen>
+        </iframe>
+      </div>
 
+      <!-- Teaser text -->
+      <div class="content has-text-left">
+        <ul>
+          <li>We propose <strong>RealDPO</strong>, a novel training pipeline for action-centric video generation that leverages real-world data as preference signals to contrastively reveal and correct the model's inherent mistakes, addressing the limitations of existing reward models and preference alignment methods.</li>
+          <li>We design a tailored DPO loss for our video generation training objective, enabling efficient and effective preference alignment without the scalability and bias issues of prior approaches.</li>
+          <li>We introduce <strong>RealAction-5K</strong>, a compact yet high-quality curated dataset focused on human daily actions, specifically crafted to advance preference learning for video generation models and broader applications.</li>
+        </ul>
+      </div>
 
-  <!-- Teaser video-->
-  <section class="hero teaser">
-    <div class="container is-max-desktop">
-      <div class="hero-body">
-        <p>
-<img src="static/images/fig2-newnewest.jpg" alt="Learning from model weights" class="blend-img-background center-image" style="max-width: 100%; height: auto;" />
-        </p>
-        <br>
-        <p>
-<li>We propose <strong>RealDPO</strong>, a novel training pipeline for action-centric video generation that leverages real-world data as preference signals to contrastively reveal and correct the model's inherent mistakes, addressing the limitations of existing reward models and preference alignment methods.</li>
-                <li>We design a tailored DPO loss for our video generation training objective, enabling efficient and effective preference alignment without the scalability and bias issues of prior approaches.</li>
-                <li>We introduce <strong>RealAction-5K</strong>, a compact yet high-quality curated dataset focused on human daily actions, specifically crafted to advance preference learning for video generation models and broader applications.</li>      </div>
     </div>
-  </section>
-  <!-- End teaser video -->
+  </div>
+</section>
+
+
 
 
 
